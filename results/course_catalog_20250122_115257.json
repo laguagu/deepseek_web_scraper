@@ -1,0 +1,499 @@
+{
+  "metadata": {
+    "url": "https://opinto-opas.haaga-helia.fi/fi/131320/fi/131354/TRATI22/year/2024",
+    "timestamp": "20250122_115257",
+    "course_count": 61
+  },
+  "results": {
+    "courses": [
+      {
+        "code": "SWE000HH1A",
+        "name": "Ruotsin tasotesti",
+        "credits": 0,
+        "category": "Valmentavat opinnot",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "SWE002HH1A",
+        "name": "Ruotsin valmentavat opinnot",
+        "credits": 3,
+        "category": "Valmentavat opinnot",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "ENG000HH1A",
+        "name": "Englannin tasotesti",
+        "credits": 0,
+        "category": "Valmentavat opinnot",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "ENG002HH1A",
+        "name": "Englannin valmentavat opinnot",
+        "credits": 3,
+        "category": "Valmentavat opinnot",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "COM001HH1A",
+        "name": "Ammatillinen viestintä",
+        "credits": 5,
+        "category": "Yhteiset avainosaamiset",
+        "mandatory": true,
+        "description": ""
+      },
+      {
+        "code": "MAR001HH1A",
+        "name": "Asiakasymmärrys ja markkinointi",
+        "credits": 5,
+        "category": "Yhteiset avainosaamiset",
+        "mandatory": true,
+        "description": ""
+      },
+      {
+        "code": "ICB001HH1A",
+        "name": "ICT-valmiudet",
+        "credits": 5,
+        "category": "Yhteiset avainosaamiset",
+        "mandatory": true,
+        "description": ""
+      },
+      {
+        "code": "SAL001HH1A",
+        "name": "Asiakaskokemus ja myynti",
+        "credits": 5,
+        "category": "Yhteiset avainosaamiset",
+        "mandatory": true,
+        "description": ""
+      },
+      {
+        "code": "HRL001HH1A",
+        "name": "Tiimityö ja projektiosaaminen",
+        "credits": 5,
+        "category": "Yhteiset avainosaamiset",
+        "mandatory": true,
+        "description": ""
+      },
+      {
+        "code": "ANA001HH1A",
+        "name": "Tutkimus- ja kehittämisosaaminen",
+        "credits": 5,
+        "category": "Yhteiset avainosaamiset",
+        "mandatory": true,
+        "description": ""
+      },
+      {
+        "code": "ECO001HH1A",
+        "name": "Yrityksen talous",
+        "credits": 5,
+        "category": "Yhteiset avainosaamiset",
+        "mandatory": true,
+        "description": ""
+      },
+      {
+        "code": "ENT001HH1A",
+        "name": "Yrittäjyys ja liiketoiminta",
+        "credits": 5,
+        "category": "Yhteiset avainosaamiset",
+        "mandatory": true,
+        "description": ""
+      },
+      {
+        "code": "ENG001HH1AE",
+        "name": "Professional English",
+        "credits": 5,
+        "category": "Yhteiset avainosaamiset",
+        "mandatory": true,
+        "description": ""
+      },
+      {
+        "code": "SWE001HH1A",
+        "name": "Svenska för arbetslivet",
+        "credits": 5,
+        "category": "Yhteiset avainosaamiset",
+        "mandatory": true,
+        "description": ""
+      },
+      {
+        "code": "STU001HH1A",
+        "name": "Johdanto opiskeluun",
+        "credits": 1,
+        "category": "Avaimet opiskeluun ja työelämään",
+        "mandatory": true,
+        "description": ""
+      },
+      {
+        "code": "STU002HH1A",
+        "name": "Digistartti",
+        "credits": 1,
+        "category": "Avaimet opiskeluun ja työelämään",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "STU003HH1A",
+        "name": "Opiskelutaidot",
+        "credits": 1,
+        "category": "Avaimet opiskeluun ja työelämään",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "STU004HH1A",
+        "name": "Ajanhallinta",
+        "credits": 1,
+        "category": "Avaimet opiskeluun ja työelämään",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "STU005HH1A",
+        "name": "Hyvinvoinnin ja itsensä johtamisen taidot",
+        "credits": 1,
+        "category": "Avaimet opiskeluun ja työelämään",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "STU006HH1A",
+        "name": "Tunnista ja sanoita vahvuutesi",
+        "credits": 1,
+        "category": "Avaimet opiskeluun ja työelämään",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "STU013HH1A",
+        "name": "Vahvuuslähtöinen urasuunnittelu",
+        "credits": 1,
+        "category": "Avaimet opiskeluun ja työelämään",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "STU007HH1A",
+        "name": "Oman urasuunnitelman kehittäminen",
+        "credits": 1,
+        "category": "Avaimet opiskeluun ja työelämään",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "STU008HH1A",
+        "name": "Työnhakutaidot",
+        "credits": 1,
+        "category": "Avaimet opiskeluun ja työelämään",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "STU009HH1A",
+        "name": "Uralle vauhtia alumnien avulla",
+        "credits": 1,
+        "category": "Avaimet opiskeluun ja työelämään",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "STU010HH1A",
+        "name": "Opiskelu ja yrittäjyys",
+        "credits": 1,
+        "category": "Avaimet opiskeluun ja työelämään",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "DIG001IT1A",
+        "name": "Johdanto digitaalisiin palveluihin",
+        "credits": 5,
+        "category": "Tutkinnon avainosaamiset",
+        "mandatory": true,
+        "description": ""
+      },
+      {
+        "code": "ICB001IT1A",
+        "name": "Johdanto liiketoimintalähtöiseen ICT:hen",
+        "credits": 5,
+        "category": "Tutkinnon avainosaamiset",
+        "mandatory": true,
+        "description": ""
+      },
+      {
+        "code": "ICI001IT1A",
+        "name": "Johdanto ICT-infrastruktuuriin ja pilvipalveluihin",
+        "credits": 5,
+        "category": "Tutkinnon avainosaamiset",
+        "mandatory": true,
+        "description": ""
+      },
+      {
+        "code": "SOF001IT1A",
+        "name": "Johdanto ohjelmistokehitykseen",
+        "credits": 5,
+        "category": "Tutkinnon avainosaamiset",
+        "mandatory": true,
+        "description": ""
+      },
+      {
+        "code": "DIG001AS2A",
+        "name": "Digitaalinen liiketoiminta",
+        "credits": 5,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "DIG002AS2A",
+        "name": "Innovointi ja prototyypin rakentaminen",
+        "credits": 5,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "DIG007AS2A",
+        "name": "Digitekniikat",
+        "credits": 5,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "DIG012AS2AE",
+        "name": "Basic 3D Design with Blender",
+        "credits": 3,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "COM004AS2A",
+        "name": "Graafisen suunnittelun perusteet ja työkalut",
+        "credits": 5,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "DIG016AS2AE",
+        "name": "Internet of Things: a Business Perspective",
+        "credits": 5,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "SER006AS2A",
+        "name": "Palvelumuotoilun perusteet",
+        "credits": 5,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "DIG004AS2A",
+        "name": "Digiprojekti",
+        "credits": 5,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "DIG005AS2A",
+        "name": "DigiTuote",
+        "credits": 5,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "DIG005AS3AE",
+        "name": "3D Printing",
+        "credits": 3,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "DIG006AS2A",
+        "name": "Digitaalisen palvelun käyttäjäkokemus",
+        "credits": 5,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "SOF002AS2A",
+        "name": "Ohjelmiston vaatimusmäärittely",
+        "credits": 5,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "MAR002AS2A",
+        "name": "Dataohjautuva markkinointi",
+        "credits": 5,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "DIG001AS3A",
+        "name": "Pilvipalvelut web-kehityksessä",
+        "credits": 5,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "DIG008AS2A",
+        "name": "Digitaalisen palvelun kehittäminen",
+        "credits": 10,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "DIG003AS2A",
+        "name": "Digitaalisen palvelun protoilu",
+        "credits": 5,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "DIG006AS3AE",
+        "name": "3D Extended Course",
+        "credits": 3,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "DIG002AS3A",
+        "name": "Design Sprint Days",
+        "credits": 5,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "DIG003AS3A",
+        "name": "Monialaprojekti",
+        "credits": 10,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "DIG009AS3A",
+        "name": "Digimestari",
+        "credits": 10,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "DIG007AS3AE",
+        "name": "3D + Robotics",
+        "credits": 3,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "DIG008AS3AE",
+        "name": "IoT Experimental Project",
+        "credits": 5,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "COM002AS3A",
+        "name": "Verkkosivuston suunnittelu ja toteutus",
+        "credits": 5,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "SER004AS3A",
+        "name": "Verkkokauppa liiketoimintamallina",
+        "credits": 5,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "SOF005AS2A",
+        "name": "Ohjelmointi 1",
+        "credits": 5,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "SOF001AS3A",
+        "name": "Ohjelmointi 2",
+        "credits": 5,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "SOF001AS2A",
+        "name": "Tietokannat ja tiedonhallinta",
+        "credits": 5,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "SOF003AS3A",
+        "name": "Back end -ohjelmointi",
+        "credits": 5,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "SOF002AS2A",
+        "name": "Ohjelmiston vaatimusmäärittely",
+        "credits": 5,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "SOF004AS3A",
+        "name": "Front end -ohjelmointi",
+        "credits": 5,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "SOF005AS3A",
+        "name": "Ohjelmistoprojekti 1",
+        "credits": 5,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      },
+      {
+        "code": "SOF011AS2A",
+        "name": "Git-versionhallinta",
+        "credits": 1,
+        "category": "IT asiantuntijaosaamiset",
+        "mandatory": false,
+        "description": ""
+      }
+    ]
+  }
+}
