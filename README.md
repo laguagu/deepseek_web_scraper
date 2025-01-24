@@ -88,7 +88,7 @@ results = await scraper.scrape_with_schema(
 )
 ```
 
-Results are saved automatically in the `results` directory.
+main.py results are saved automatically in the `results` directory.
 
 ## Requirements
 
