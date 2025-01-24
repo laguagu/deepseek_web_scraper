@@ -84,7 +84,7 @@ async def main():
         }
     }
 
-    scraper = SmartScraper()  # Automatically fetches from .env file
+    scraper = SmartScraper()
 
     results = await scraper.scrape_with_schema(
         url="https://www.adidas.com/us/handball-spezial-shoes/JS0241.html?pr=taxonomy_rr&slot=2&rec=mt",

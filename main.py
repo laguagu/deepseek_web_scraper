@@ -40,7 +40,7 @@ class CourseScraper:
         }
 
     def save_json(self, data, url: str):
-        """Tallentaa tiedot JSON-muodossa"""
+        """Saves the extracted data to a JSON file"""
         Path("results").mkdir(exist_ok=True)
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         filename = f"course_catalog_{timestamp}.json"
