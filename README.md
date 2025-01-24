@@ -8,6 +8,7 @@ Simple web scraper that uses LLM (Large Language Model) to extract structured da
 - Returns data in structured JSON format
 - Configurable schema for desired data structure
 - Saves results with timestamps
+- Supports web store product data extraction (web_store_scraper.py)
 
 ## Quick Start
 
@@ -24,8 +25,17 @@ DEEPSEEK_API_KEY=your-api-key-here
 
 3. Use the scraper:
 ```python
+# For course data
 scraper = CourseScraper()
 courses = await scraper.scrape_courses(url)
+
+# For web store products
+scraper = SmartScraper()
+products = await scraper.scrape_with_schema(
+    url="your-product-url",
+    instructions="Find product name, price, and features",
+    schema=product_schema
+)
 ```
 
 ## Example
@@ -50,6 +60,31 @@ schema = {
 extractor = LLMExtractionStrategy(
     instruction="Extract course code, name and credits",
     schema=schema
+)
+```
+
+**web_store_scraper.py**
+
+```python
+# Example product schema
+product_schema = {
+    "type": "object",
+    "properties": {
+        "name": {"type": "string"},
+        "price": {"type": "string"},
+        "features": {
+            "type": "array",
+            "items": {"type": "string"}
+        }
+    }
+}
+
+# Initialize and use the scraper
+scraper = SmartScraper()
+results = await scraper.scrape_with_schema(
+    url="your-product-url",
+    instructions="Find the product name, price, and list of features",
+    schema=product_schema
 )
 ```
 

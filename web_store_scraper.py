@@ -7,7 +7,7 @@ from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig
 from crawl4ai.extraction_strategy import LLMExtractionStrategy
 from dotenv import load_dotenv
 
-# Ladataan .env tiedosto
+# Load .env file
 load_dotenv()
 
 
@@ -15,9 +15,9 @@ class SmartScraper:
     def __init__(self, api_token: str = None):
         print("Initializing SmartScraper...")
         """
-        Initialisoi scraper DeepSeek API:lla.
+        Initialize scraper with DeepSeek API.
         Args:
-            api_token: DeepSeek API token. Jos None, hakee DEEPSEEK_API_KEY .env tiedostosta.
+            api_token: DeepSeek API token. If None, retrieves DEEPSEEK_API_KEY from .env file.
         """
         self.api_token = api_token or os.getenv("DEEPSEEK_API_KEY")
         if not self.api_token:
@@ -36,18 +36,18 @@ class SmartScraper:
         schema: Dict[str, Any]
     ) -> Dict:
         """
-        Scrapee sivun ja palauttaa datan JSON muodossa.
+        Scrapes the page and returns data in JSON format.
         """
-        # LLM extraction strategy DeepSeekillä
+        # LLM extraction strategy with DeepSeek
         extraction_strategy = LLMExtractionStrategy(
-            provider="deepseek/deepseek-chat",     # Käytetään chat-mallia
-            api_token=self.api_token,              # API token DeepSeekille
-            extraction_type="schema",              # Halutaan schema-muotoinen output
+            provider="deepseek/deepseek-chat",     # Use chat model
+            api_token=self.api_token,              # API token for DeepSeek
+            extraction_type="schema",              # Want schema-formatted output
             schema=schema,                         # JSON schema
-            instruction=instructions,              # Ohjeet extractioon
-            chunk_token_threshold=2000,            # Pienemmät chunkit
-            overlap_rate=0.1,                      # 10% overlap chunkkien välillä
-            verbose=True                           # Näytetään debug infoa
+            instruction=instructions,              # Instructions for extraction
+            chunk_token_threshold=2000,            # Smaller chunks
+            overlap_rate=0.1,                      # 10% overlap between chunks
+            verbose=True                           # Show debug info
         )
 
         crawler_config = CrawlerRunConfig(
@@ -71,7 +71,7 @@ class SmartScraper:
 
 
 async def main():
-    # Esimerkki schema tuotetiedoille
+    # Example schema for product information
     product_schema = {
         "type": "object",
         "properties": {
@@ -84,11 +84,11 @@ async def main():
         }
     }
 
-    scraper = SmartScraper()  # Hakee automaattisesti .env tiedostosta
+    scraper = SmartScraper()  # Automatically fetches from .env file
 
     results = await scraper.scrape_with_schema(
         url="https://www.adidas.com/us/handball-spezial-shoes/JS0241.html?pr=taxonomy_rr&slot=2&rec=mt",
-        instructions="Etsi tuotteen nimi, hinta ja ominaisuudet listana",
+        instructions="Find the product name, price, and list of features",
         schema=product_schema
     )
 
