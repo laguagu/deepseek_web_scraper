@@ -1,6 +1,6 @@
 # Web Scraper with LLM
 
-Simple web scraper that uses LLM (Large Language Model) to extract structured data from web pages. Instead of traditional CSS selectors or XPath, it uses natural language instructions to identify and extract content.
+Simple web scraper that uses LLM to extract structured data from web pages. Instead of traditional CSS selectors or XPath, it uses natural language instructions to identify and extract content.
 
 ## Features
 
